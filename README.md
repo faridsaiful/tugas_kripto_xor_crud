@@ -21,6 +21,7 @@ File ini adalah pustaka yang berisi semua fungsi bantu (helper) yang digunakan d
 File ini berfungsi sebagai halaman utama (Read) yang menampilkan daftar kontak.
   - Fungsi Utama: Mengambil semua data kontak dari tabel contacts, mendekripsi field sensitif (name, email, notes) menggunakan kunci kriptografi, dan menampilkannya dalam format tabel.
   - Tampilan: Menyediakan tautan ke halaman create.php (tambah kontak) dan tautan aksi untuk update.php (edit) serta delete.php (hapus) untuk setiap baris kontak.
+screenshot/image (3).png
 
 4. create.php
 File ini berfungsi sebagai halaman Create (Tambah) untuk menambahkan kontak baru.
