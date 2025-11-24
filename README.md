@@ -44,7 +44,7 @@ File ini berfungsi sebagai script Delete (Hapus) untuk menghapus kontak.
 ![Tampilan Form Delete](screenshot/image%20(6).png)
 
 7. xor_crud.sql  
-#File ini adalah dump atau skrip Database Definition Language (DDL) yang berfungsi sebagai cetak biru untuk menyiapkan struktur database yang dibutuhkan oleh aplikasi CRUD PHP.
+File ini adalah dump atau skrip Database Definition Language (DDL) yang berfungsi sebagai cetak biru untuk menyiapkan struktur database yang dibutuhkan oleh aplikasi CRUD PHP.
 Tabel contacts memiliki kolom-kolom untuk menyimpan data kontak seperti:
   - id (Kunci Utama/Primary Key, Auto Increment)
   - name (Teks)
