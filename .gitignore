@@ -1,0 +1,6 @@
+# Ignore configuration file with credentials
+config.php 
+# Ignore database file
+*.sql
+# Ignore screenshot folder
+screenshot/
