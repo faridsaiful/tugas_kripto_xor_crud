@@ -31,7 +31,7 @@ File ini berfungsi sebagai halaman Create (Tambah) untuk menambahkan kontak baru
 ![Tampilan Form Create](screenshot/image%20(4).png)
 
 5. update.php
-File ini berfungsi sebagai halaman Update (Edit) untuk memodifikasi kontak yang sudah ada.
+#File ini berfungsi sebagai halaman Update (Edit) untuk memodifikasi kontak yang sudah ada.
   - Fungsi Utama (GET): Mengambil data kontak berdasarkan id dari URL, mendekripsi datanya, dan mengisi formulir HTML.
   - Fungsi Utama (POST): Memproses perubahan data dari formulir, mengenkripsi field yang diperbarui, dan menyimpan pembaruan ke database berdasarkan id.
   - Navigasi: Setelah berhasil diperbarui, pengguna diarahkan kembali ke index.php.
@@ -44,13 +44,13 @@ File ini berfungsi sebagai script Delete (Hapus) untuk menghapus kontak.
 ![Tampilan Form Delete](screenshot/image%20(6).png)
 
 7. xor_crud.sql
-File ini adalah dump atau skrip Database Definition Language (DDL) yang berfungsi sebagai cetak biru untuk menyiapkan struktur database yang dibutuhkan oleh aplikasi CRUD PHP.
+#File ini adalah dump atau skrip Database Definition Language (DDL) yang berfungsi sebagai cetak biru untuk menyiapkan struktur database yang dibutuhkan oleh aplikasi CRUD PHP.
 Tabel contacts memiliki kolom-kolom untuk menyimpan data kontak seperti:
-  id (Kunci Utama/Primary Key, Auto Increment)
-  name (Teks)
-  email (Teks)
-  phone (VARCHAR)
-  notes (Teks)
-  created_at (Timestamp/Waktu pembuatan)
+  - id (Kunci Utama/Primary Key, Auto Increment)
+  - name (Teks)
+  - email (Teks)
+  - phone (VARCHAR)
+  - notes (Teks)
+  - created_at (Timestamp/Waktu pembuatan)
 Dan semua data yg masuk kedalam tabel database ini sudah dalam bentuk encrypted. 
-![Tampilan Databases](screenshot/image%20(1).png)
+![Tampilan Databases](screenshot/image%20(2).png)
