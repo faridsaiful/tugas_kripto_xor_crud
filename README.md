@@ -28,14 +28,17 @@ File ini berfungsi sebagai halaman Create (Tambah) untuk menambahkan kontak baru
   - Fungsi Utama: Menampilkan formulir HTML untuk input data kontak dan memproses pengiriman formulir (POST request).
   - Proses Data: Saat formulir dikirim, ia mengambil data, mengenkripsi name, email, dan notes, lalu menyimpannya ke database.
   - Navigasi: Setelah berhasil disimpan, pengguna diarahkan kembali (header('Location: index.php')) ke halaman index.php.
+![Tampilan Form Edit Kontak](screenshot/image%20(4).png)
 
 5. update.php
 File ini berfungsi sebagai halaman Update (Edit) untuk memodifikasi kontak yang sudah ada.
   - Fungsi Utama (GET): Mengambil data kontak berdasarkan id dari URL, mendekripsi datanya, dan mengisi formulir HTML.
   - Fungsi Utama (POST): Memproses perubahan data dari formulir, mengenkripsi field yang diperbarui, dan menyimpan pembaruan ke database berdasarkan id.
   - Navigasi: Setelah berhasil diperbarui, pengguna diarahkan kembali ke index.php.
+![Tampilan Form Edit Kontak](screenshot/image%20(5).png)
 
 6. delete.php
 File ini berfungsi sebagai script Delete (Hapus) untuk menghapus kontak.
   - Fungsi Utama: Menerima id kontak melalui parameter URL (GET), menghapus baris yang sesuai dari tabel contacts di database.
   - Navigasi: Setelah penghapusan, pengguna diarahkan kembali ke index.php.
+![Tampilan Form Edit Kontak](screenshot/image%20(6).png)
