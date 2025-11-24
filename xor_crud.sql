@@ -2,7 +2,6 @@
 CREATE DATABASE IF NOT EXISTS `xor_crud` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE `xor_crud`;
 
-
 DROP TABLE IF EXISTS `contacts`;
 CREATE TABLE `contacts` (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -12,6 +11,3 @@ CREATE TABLE `contacts` (
 `notes` TEXT DEFAULT NULL,
 `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-
--- sample (kosong). Aplikasi akan mengenkripsi ketika data disimpan.
