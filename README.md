@@ -42,3 +42,34 @@ File ini berfungsi sebagai script Delete (Hapus) untuk menghapus kontak.
   - Fungsi Utama: Menerima id kontak melalui parameter URL (GET), menghapus baris yang sesuai dari tabel contacts di database.
   - Navigasi: Setelah penghapusan, pengguna diarahkan kembali ke index.php.
 ![Tampilan Form Edit Kontak](screenshot/image%20(6).png)
+
+#7. xor_crud.sql
+File xor_crud.sql adalah dump atau skrip Database Definition Language (DDL) yang berfungsi sebagai cetak biru untuk menyiapkan struktur database yang dibutuhkan oleh aplikasi CRUD PHP Anda.
+
+Pembuatan Database (CREATE DATABASE):
+
+Fungsi utamanya adalah memastikan database bernama xor_crud ada, dan jika belum ada, ia akan membuatnya dengan charset dan collation yang sesuai (utf8mb4).
+
+Pemilihan Database (USE):
+
+File ini memastikan bahwa perintah-perintah selanjutnya dieksekusi di dalam database xor_crud.
+
+Definisi Tabel (CREATE TABLE):
+
+File ini mendefinisikan tabel utama aplikasi, yaitu contacts.
+
+Ia memastikan tabel lama (DROP TABLE IF EXISTS) dihapus sebelum membuat yang baru, untuk menghindari error jika skrip dijalankan ulang.
+
+Tabel contacts memiliki kolom-kolom untuk menyimpan data kontak:
+
+id (Kunci Utama/Primary Key, Auto Increment)
+
+name (Teks)
+
+email (Teks)
+
+phone (VARCHAR)
+
+notes (Teks)
+
+created_at (Timestamp/Waktu pembuatan)
