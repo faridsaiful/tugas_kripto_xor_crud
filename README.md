@@ -55,6 +55,7 @@ Tabel contacts memiliki kolom-kolom untuk menyimpan data kontak seperti:
 Dan semua data yg masuk kedalam tabel database ini sudah dalam bentuk encrypted. 
 ![Tampilan Databases](screenshot/image%20(2).png)
 
+    
 🚀 Panduan Menjalankan Aplikasi CRUD XOR (PHP & MySQL)  
 
 Aplikasi ini memerlukan lingkungan web server lokal yang mendukung PHP dan MySQL (misalnya, XAMPP, Laragon, atau WAMP).
@@ -80,3 +81,4 @@ Langkah 4: Jalankan Aplikasi
   - Buka browser dan isi dengan "http://localhost/tugas_kripto_xor_crud/"
   - Halaman utama akan tampil dengan tabel data.
   - selesai
+![Tampilan Index](screenshot/image%20(3).png)
