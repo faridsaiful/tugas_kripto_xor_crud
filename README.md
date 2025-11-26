@@ -1,4 +1,4 @@
-# tugas-kriptografi
+Kriptografi dan Steganografi
 Tugas mata kuliah "Kriptografi dan Steganografi"
 
 Fungsi dari setiap file dalam program *CRUD* (Create, Read, Update, Delete) kontak yg terenkripsi sebagai berikut:
@@ -54,3 +54,29 @@ Tabel contacts memiliki kolom-kolom untuk menyimpan data kontak seperti:
   - created_at (Timestamp/Waktu pembuatan)  
 Dan semua data yg masuk kedalam tabel database ini sudah dalam bentuk encrypted. 
 ![Tampilan Databases](screenshot/image%20(2).png)
+
+🚀 Panduan Menjalankan Aplikasi CRUD XOR (PHP & MySQL)  
+
+Aplikasi ini memerlukan lingkungan web server lokal yang mendukung PHP dan MySQL (misalnya, XAMPP, Laragon, atau WAMP).
+
+Langkah 1: Persiapan Lingkungan
+  - Instal XAMPP/WAMP: Pastikan sudah menginstal dan menjalankan kontrol panel XAMPP/WAMP.
+  - Jalankan Layanan: Aktifkan Apache dan MySQL dari kontrol panel.
+    
+Langkah 2: Unduh dan Penempatan Kode
+  - Clone atau unduh ZIP repositori.
+  - Pindahkan folder tugas_kripto_xor_crud ke dalam direktori web root server lokal (misalnya, htdocs di XAMPP).
+    
+Langkah 3: Konfigurasi dan Impor Database
+  - Buka browser dan akses http://localhost/phpmyadmin/.
+  - Buat database baru dengan nama disesuaikan konfigurasi pada file config.php (contoh: db_kriptografi)
+  - Impor Tabel:
+    - Klik pada database db_kriptografi
+    - Pilih tab Import
+    - Cari dan unggah file db_kriptografi.sql
+    - Klik Go untuk mengimpor tabel data_user  
+
+Langkah 4: Jalankan Aplikasi  
+  - Buka browser dan isi dengan "http://localhost/tugas_kripto_xor_crud/"
+  - Halaman utama akan tampil dengan tabel data.
+  - selesai
